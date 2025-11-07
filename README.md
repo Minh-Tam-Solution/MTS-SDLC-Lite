@@ -213,7 +213,7 @@ Mỗi khủng hoảng là 1 tài sản tri thức nếu bạn document đúng c�
 3. **Start**: Pick 1 problem, áp 4 stages, run 2 tuần
 
 ### Community:
-- **GitHub**: Share patterns, learn from others
+- **GitHub**: [https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite/](https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite/) - Share patterns, learn from others
 - **Office Hours**: Weekly mentoring sessions
 - **Case Study Library**: Growing collection of real-world wins
 

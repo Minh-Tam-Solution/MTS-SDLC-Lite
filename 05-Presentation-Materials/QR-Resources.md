@@ -6,11 +6,14 @@
 
 ## 🎯 QR Code #1: MTS SDLC Lite for Startups Package
 
-### Destination URL (placeholder - to be updated with actual hosting)
+### Destination URL
 ```
-https://sdlc.bflow.vn/lite-startup
-OR
-https://github.com/nqh-holding/sdlc-lite-startup
+https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite/
+```
+
+**Direct Download**: Click "Code" → "Download ZIP" hoặc clone repository:
+```bash
+git clone https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite.git
 ```
 
 ### What's Included:
@@ -131,21 +134,20 @@ https://bflow.vn/cto-summit-2025
 
 ## 📚 Additional Resources (Landing Pages)
 
-### Resource #4: SDLC 4.7 Community
+### Resource #4: MTS SDLC Lite Community
 ```
-https://community.sdlc47.com
-OR
-Discord: discord.gg/sdlc47
+GitHub: https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite/
 ```
 
 **Features**:
+- Open source repository
 - Pattern library (growing collection)
 - Success stories from other founders
-- Monthly webinars
-- Q&A forums
+- Issue discussions and Q&A
 - Template sharing
+- Community contributions welcome
 
-**Free to join**
+**Free to access & contribute**
 
 ---
 
