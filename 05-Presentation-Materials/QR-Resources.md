@@ -69,9 +69,9 @@ https://bflow.vn/mentoring
 - Help apply 4 stages to your specific use case
 - Troubleshoot your audit/design/standardize process
 - Review your patterns and give feedback
-- Answer questions about SDLC 4.8 framework (evolved from 4.7)
+- Answer questions about SDLC 4.8 framework
 - Guidance on AI tool selection and orchestration
-- Design Thinking integration (NEW in 4.8)
+- Design Thinking & System Thinking integration
 
 **Preparation** (optional but helpful):
 - Bring 1 use case you want to optimize
@@ -106,7 +106,7 @@ https://bflow.vn/cto-summit-2025
 1. **Process-First Architecture**: How workflows become apps
 2. **Data-From-Activities**: Real-time data without manual entry
 3. **Design-for-Change**: Composable structure with guardrails
-4. **SDLC 4.8 in Action**: Framework principles productized (evolved from 4.7)
+4. **SDLC 4.8 in Action**: Framework principles productized
 
 **Use Cases Shown**:
 - Sales Operations flow (2-4 weeks to production)
@@ -302,7 +302,7 @@ After applying MTS SDLC Lite, we'd love to hear:
 
 ## 🏆 Join the Movement
 
-**SDLC 4.8 is more than a framework. It's a movement.** (Evolution: 4.7 → 4.8 with Design Thinking)
+**SDLC 4.8 is more than a framework. It's a movement.**
 
 From:
 - Tool chaos → Execution discipline

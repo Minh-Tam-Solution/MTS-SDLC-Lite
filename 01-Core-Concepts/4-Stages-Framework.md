@@ -2,7 +2,7 @@
 
 **For Founders**: Start with the RIGHT questions, not the RIGHT tools.
 
-> Based on **SDLC 4.8 Framework** (Evolution of 4.7) - Battle-tested methodology with Design Thinking integration
+> Based on **SDLC 4.8 Framework** - Battle-tested methodology with System Thinking & Design Thinking
 
 ---
 
@@ -309,7 +309,7 @@ Test & Learn:
 
 ## 🎓 Deep Dive Available
 
-**MTS SDLC Lite is introduction.** Full SDLC 4.8 framework (evolved from 4.7) includes:
+**MTS SDLC Lite is introduction.** Full SDLC 4.8 framework includes:
 
 - Complete implementation guides
 - AI role templates (Claude, Cursor, Copilot, etc.)
@@ -340,5 +340,5 @@ Test & Learn:
 **Document**: 4-Stages-Framework  
 **Part of**: MTS SDLC Lite for Startups  
 **Usage**: Slide 4 talking points  
-**Note**: This is the startup-friendly version for thought leadership. Full SDLC 4.8 framework (with Design Thinking integration) available through MTS partnership/mentoring.
+**Note**: This is the startup-friendly version for thought leadership. Full SDLC 4.8 framework available through MTS partnership/mentoring.
 

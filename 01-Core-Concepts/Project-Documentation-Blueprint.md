@@ -365,7 +365,7 @@ Add at top of each doc:
 
 ## 🎓 Beyond the Basics
 
-**MTS SDLC Lite covers startup essentials.** Full SDLC 4.8 framework (evolved from 4.7) includes:
+**MTS SDLC Lite covers startup essentials.** Full SDLC 4.8 framework includes:
 
 - Complete folder structure (10 folders cho enterprise)
 - Document naming standards (no dates/versions in names)
