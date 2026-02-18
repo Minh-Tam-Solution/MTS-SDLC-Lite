@@ -1,6 +1,6 @@
 # 10-Stage Software Lifecycle
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Core Concept
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-Every software project — from a weekend prototype to an enterprise platform — moves through the same lifecycle. SDLC 6.0.6 defines 10 stages, each answering a specific question.
+Every software project — from a weekend prototype to an enterprise platform — moves through the same lifecycle. SDLC 6.1.0 defines 10 stages, each answering a specific question.
 
 Skipping early stages (00-02) is the #1 cause of wasted work. The earlier you invest in clarity, the less you rework later.
 
@@ -20,7 +20,7 @@ Skipping early stages (00-02) is the #1 cause of wasted work. The earlier you in
 ```
                     ┌─────────────────────────────────────┐
                     │     THE 10-STAGE LIFECYCLE           │
-                    │         SDLC 6.0.6                   │
+                    │         SDLC 6.1.0                   │
                     └─────────────────────────────────────┘
 
   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐
@@ -82,7 +82,7 @@ Stages 05-09 are not skipped — they happen informally. LITE tier means you don
 
 If you learned the earlier MTS-SDLC-Lite (v0.1.0), here's how it maps:
 
-| Old 4-Stage Name | SDLC 6.0.6 Stage(s) | Stage Numbers |
+| Old 4-Stage Name | SDLC 6.1.0 Stage(s) | Stage Numbers |
 |-------------------|---------------------|--------------|
 | **WHY** (Foundation) | FOUNDATION | 00 |
 | **WHAT** (Plan & Analyze) | PLANNING | 01 |

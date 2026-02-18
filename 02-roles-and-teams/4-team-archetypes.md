@@ -1,6 +1,6 @@
 # 4 Team Archetypes
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Roles & Teams
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-SDLC 6.0.6 defines **4 core team archetypes** (active at all tiers) plus **2 STANDARD+ archetypes** for formalized SE4H teams. Each team has a leader (first point of contact), defined members, and clear stage/gate ownership.
+SDLC 6.1.0 defines **4 core team archetypes** (active at all tiers) plus **2 STANDARD+ archetypes** for formalized SE4H teams. Each team has a leader (first point of contact), defined members, and clear stage/gate ownership.
 
 Teams enable structured collaboration — agents (or humans) communicate through defined channels, not ad-hoc chaos.
 
@@ -174,7 +174,7 @@ User sends unclear message or picks wrong team:
 ```
 
 **When to use**:
-- New team members unfamiliar with SDLC 6.0.6 roles
+- New team members unfamiliar with SDLC 6.1.0 roles
 - Users who don't know which team or agent to contact
 - Onboarding and framework questions
 

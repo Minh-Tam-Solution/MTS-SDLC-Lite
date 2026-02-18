@@ -1,5 +1,23 @@
 # Changelog
 
+## v1.1.0 (2026-02-18) — SDLC 6.1.0
+
+Align with SDLC Enterprise Framework 6.1.0 Consolidation Release.
+
+### Changed
+- Framework base: SDLC 6.0.6 → SDLC 6.1.0
+- All version references updated (99 occurrences across 28 files)
+- Version history updated with 6.0.6 → 6.1.0 evolution
+
+### Added context for 6.1.0 enhancements
+- **System Thinking Foundation** now a dedicated standalone document in the Enterprise Framework
+- **Crisis-to-Pattern Methodology** extracted as standalone 5-step pipeline
+- **Multi-Agent Patterns** — 10 battle-tested collaboration patterns (NEW in 6.1.0)
+- **Ring 1 Consolidation** — cleaner separation of principles vs. templates
+- **Terminology Cleanup** — BRS/MTS/LPS deprecated → AGENTS.md
+
+---
+
 ## v1.0.0 (2026-02-18) — SDLC 6.0.6
 
 Major overhaul from SDLC 4.8 to SDLC 6.0.6. Complete rewrite of all content.

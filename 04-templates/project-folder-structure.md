@@ -1,6 +1,6 @@
 # Project Folder Structure
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Template
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-Every SDLC 6.0.6 project uses a standard folder structure based on the 10-stage lifecycle. Documents live where they belong — when someone asks "where are the requirements?", the answer is always `docs/01-planning/`.
+Every SDLC 6.1.0 project uses a standard folder structure based on the 10-stage lifecycle. Documents live where they belong — when someone asks "where are the requirements?", the answer is always `docs/01-planning/`.
 
 ---
 
@@ -126,7 +126,7 @@ Every document should include the standard header:
 ```markdown
 # [Document Title]
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Stage**: NN - STAGE_NAME
 **Status**: Draft | Active | Archived
 ```

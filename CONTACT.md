@@ -11,7 +11,7 @@
 
 | Project | Description | License |
 |---------|-------------|---------|
-| [MTS-SDLC-Lite](https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite) | SDLC 6.0.6 community concepts | MIT |
+| [MTS-SDLC-Lite](https://github.com/Minh-Tam-Solution/MTS-SDLC-Lite) | SDLC 6.1.0 community concepts | MIT |
 | [TinySDLC](https://github.com/Minh-Tam-Solution/tinysdlc) | Reference implementation | MIT |
 
 ---

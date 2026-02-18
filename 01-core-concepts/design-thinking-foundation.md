@@ -1,6 +1,6 @@
 # Design Thinking Foundation
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Core Concept
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-Design Thinking is the foundation of SDLC 6.0.6's early stages. It ensures you **build the RIGHT thing** before you build the thing right.
+Design Thinking is the foundation of SDLC 6.1.0's early stages. It ensures you **build the RIGHT thing** before you build the thing right.
 
 Most failed software projects don't fail because of bad code — they fail because they solve the wrong problem.
 

@@ -1,6 +1,6 @@
 # Quality Gates
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Core Concept
 **Status**: Active
 **License**: MIT

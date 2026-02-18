@@ -1,6 +1,6 @@
 # Battle-Tested Platforms
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Case Study
 **Status**: Active
 **License**: MIT
@@ -13,7 +13,7 @@ Three production platforms built by small teams using SDLC methodology with AI a
 
 **Timeline**: 4 months (June-September 2025)
 **Team**: 1 CEO/CTO + AI agents
-**Framework**: SDLC 4.7 → 6.0.6 (methodology evolved during this period)
+**Framework**: SDLC 4.7 → 6.1.0 (methodology evolved during this period)
 
 ---
 
@@ -64,7 +64,7 @@ Using the [Crisis to Pattern](../03-playbooks/crisis-to-pattern.md) approach:
 
 **Enforcement**: Pre-commit hooks scan for mock patterns. CI/CD blocks PRs with mock indicators. Code review includes mandatory mock pattern check.
 
-**Lesson**: One well-designed quality gate (G3) prevents entire categories of failures. The 679-Mock Crisis is why G3 requires both reviewer AND tester sign-off in SDLC 6.0.6.
+**Lesson**: One well-designed quality gate (G3) prevents entire categories of failures. The 679-Mock Crisis is why G3 requires both reviewer AND tester sign-off in SDLC 6.1.0.
 
 ---
 

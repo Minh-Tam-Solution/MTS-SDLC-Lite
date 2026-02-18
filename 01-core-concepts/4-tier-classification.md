@@ -1,6 +1,6 @@
 # 4-Tier Classification
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Core Concept
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-Not every project needs the same level of process. SDLC 6.0.6 defines 4 tiers based on team size, each with appropriate stages, documentation, and gate formality. Start with the tier that fits — upgrade when you grow.
+Not every project needs the same level of process. SDLC 6.1.0 defines 4 tiers based on team size, each with appropriate stages, documentation, and gate formality. Start with the tier that fits — upgrade when you grow.
 
 ---
 

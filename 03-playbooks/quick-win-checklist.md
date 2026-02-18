@@ -1,6 +1,6 @@
 # Quick-Win Checklist
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Playbook
 **Status**: Active
 **License**: MIT

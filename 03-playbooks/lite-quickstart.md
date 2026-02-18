@@ -1,6 +1,6 @@
 # LITE Tier Quickstart
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Playbook
 **Status**: Active
 **License**: MIT
@@ -61,7 +61,7 @@ Create `docs/00-foundation/problem-statement.md`:
 ```markdown
 # Problem Statement
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Stage**: 00 - FOUNDATION
 **Status**: Draft
 
@@ -102,7 +102,7 @@ Create `docs/01-planning/requirements.md`:
 ```markdown
 # Requirements
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Stage**: 01 - PLANNING
 **Status**: Draft
 
@@ -151,7 +151,7 @@ Create `docs/02-design/architecture-decisions.md`:
 ```markdown
 # Architecture Decisions
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Stage**: 02 - DESIGN
 **Status**: Draft
 
@@ -200,7 +200,7 @@ Now build. Create `docs/04-build/sprint-plan.md`:
 ```markdown
 # Sprint Plan
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Stage**: 04 - BUILD
 **Status**: Active
 
@@ -243,8 +243,8 @@ If you're using an AI coding assistant, create a project configuration:
 
 ```json
 {
-  "_comment": "SDLC 6.0.6 LITE tier — tool-agnostic configuration",
-  "sdlc_version": "6.0.6",
+  "_comment": "SDLC 6.1.0 LITE tier — tool-agnostic configuration",
+  "sdlc_version": "6.1.0",
   "tier": "LITE",
   "active_stages": [
     "00-foundation",

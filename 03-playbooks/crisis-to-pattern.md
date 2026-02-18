@@ -1,6 +1,6 @@
 # Crisis to Pattern
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Playbook
 **Status**: Active
 **License**: MIT
@@ -231,7 +231,7 @@ When to apply this pattern to a new project:
 
 ---
 
-## Connection to SDLC 6.0.6
+## Connection to SDLC 6.1.0
 
 This playbook embodies several SDLC principles:
 

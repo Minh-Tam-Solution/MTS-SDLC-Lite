@@ -1,6 +1,6 @@
 ---
 name: Success Story
-about: Share your success story using SDLC 6.0.6 concepts
+about: Share your success story using SDLC 6.1.0 concepts
 title: '[SUCCESS] '
 labels: success-story
 assignees: ''
@@ -23,7 +23,7 @@ Describe the problem you were facing:
 
 ### What You Applied
 
-Which SDLC 6.0.6 concepts did you use?
+Which SDLC 6.1.0 concepts did you use?
 
 - [ ] 10-Stage Lifecycle (stage-based project structure)
 - [ ] Quality Gates (G0.1, G1, G2, G3, G4)
@@ -61,7 +61,7 @@ Did you create any reusable patterns? Please share:
 
 ### Advice for Others
 
-What would you tell someone starting with SDLC 6.0.6?
+What would you tell someone starting with SDLC 6.1.0?
 
 
 ### Permission to Share

@@ -1,6 +1,6 @@
 # Version History
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Reference
 **Status**: Active
 **License**: MIT
@@ -16,12 +16,12 @@ The SDLC methodology has evolved through real-world application across multiple 
 ## Evolution Timeline
 
 ```
-2024-Q3          2024-Q4          2025-Q1          2025-Q2
-   │                │                │                │
-   ▼                ▼                ▼                ▼
-SDLC 4.7         SDLC 4.8         SDLC 5.0         SDLC 6.0.6
-Initial          Refined           4-Tier            7 Pillars
-4 Stages         + Gates           Classification    Complete
+2024-Q3       2024-Q4       2025-Q1       2025-Q2       2026-Q1
+   │             │             │             │             │
+   ▼             ▼             ▼             ▼             ▼
+SDLC 4.7      SDLC 4.8      SDLC 5.0      SDLC 6.0.6   SDLC 6.1.0
+Initial       Refined        4-Tier         7 Pillars     Consolidation
+4 Stages      + Gates        Classification Complete      Ring 1 Slim
 ```
 
 ---
@@ -78,7 +78,7 @@ Initial          Refined           4-Tier            7 Pillars
 
 ---
 
-## SDLC 6.0.6 — Current Version (2025-Q2)
+## SDLC 6.0.6 — The Complete Framework (2025-Q2)
 
 **The complete framework** — built on 7 pillars:
 
@@ -98,12 +98,29 @@ Initial          Refined           4-Tier            7 Pillars
 
 7. **LITE Tier Refinement**: 5 active stages (00-04, including 03-INTEGRATE) with "thinking modes" model for solo developers
 
-### Why 6.0.6
+---
 
-The version number reflects the maturity:
-- **6**: Major version — complete framework overhaul
-- **0**: Minor version — initial release of v6
-- **6**: Patch version — refinements from implementation feedback
+## SDLC 6.1.0 — Consolidation Release (2026-Q1, Current)
+
+**Ring 1 Consolidation** — cleaner separation, dedicated foundation documents, multi-agent patterns:
+
+### What 6.1.0 Changed
+
+1. **Ring 1 Monolith Slim**: Design Thinking 2,018→364 lines, Agentic Core 1,313→293 lines — cleaner separation of principles vs. templates
+
+2. **System Thinking Foundation**: Dedicated standalone document for the 4-Layer Iceberg Model and 6 Mental Models (core concept since SDLC 4.0)
+
+3. **Crisis-to-Pattern Methodology**: Extracted from Design Thinking into standalone 5-step pipeline document
+
+4. **Multi-Agent Patterns**: NEW — 10 battle-tested collaboration patterns (lane queues, failover chains, snapshot precedence)
+
+5. **Agentic Docs Reorganization**: Moved to AI Governance section (correct ring placement)
+
+6. **Terminology Cleanup**: BRS/MTS/LPS deprecated → AGENTS.md (industry-standard naming)
+
+### Why 6.1.0
+
+No breaking changes — additive consolidation with internal reorganization. The 6.0.6 content is preserved but better organized.
 
 ---
 
@@ -118,7 +135,7 @@ The version number reflects the maturity:
 
 ### v1.0.0 (2025-Q2) — Community Edition (Current)
 
-- Complete overhaul to SDLC 6.0.6
+- Complete overhaul to SDLC 6.1.0
 - English primary language
 - 10-stage lifecycle (5 active at LITE tier)
 - 12 roles, 6 teams, quality gates, SE4H/SE4A
@@ -136,6 +153,7 @@ The version number reflects the maturity:
 | 4.7 → 4.8 | 679-Mock Crisis | Quality gates are mandatory, not optional |
 | 4.8 → 5.0 | Team scaling challenges | Same process for 1 person and 50 fails — need tier classification |
 | 5.0 → 6.0.6 | TinySDLC implementation | Roles, teams, and model assignment need formal definitions |
+| 6.0.6 → 6.1.0 | Ring 1 document growth | Core docs too large; foundation concepts need standalone documents |
 
 Each version was driven by practical need, not theoretical improvement. The framework only grew when real projects demanded it.
 

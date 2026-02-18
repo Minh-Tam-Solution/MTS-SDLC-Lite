@@ -1,6 +1,6 @@
 # Multi-Provider Strategy
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Roles & Teams
 **Status**: Active
 **License**: MIT
@@ -133,7 +133,7 @@ Apply the principle manually:
 
 ## STANDARD+ Extension: 12-Role Model Routing
 
-At **STANDARD tier and above**, SDLC 6.0.6 adds 4 roles (3 SE4H + 1 Router). These require different model characteristics than the 8 SE4A roles:
+At **STANDARD tier and above**, SDLC 6.1.0 adds 4 roles (3 SE4H + 1 Router). These require different model characteristics than the 8 SE4A roles:
 
 ### Extended Role-to-Tier Mapping
 

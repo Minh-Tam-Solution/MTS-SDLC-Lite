@@ -1,6 +1,6 @@
 # Founder Playbook
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Playbook
 **Status**: Active
 **License**: MIT
@@ -306,7 +306,7 @@ Bus factor of one. The 1-page pattern document exists so anyone can run the proc
 
 ---
 
-## Connection to SDLC 6.0.6
+## Connection to SDLC 6.1.0
 
 This playbook applies SDLC concepts at the simplest level:
 

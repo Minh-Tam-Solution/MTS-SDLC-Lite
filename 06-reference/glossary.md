@@ -1,6 +1,6 @@
 # Glossary
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Reference
 **Status**: Active
 **License**: MIT
@@ -11,7 +11,7 @@
 
 ### SDLC (Software Development Lifecycle)
 
-A structured approach to building software, from understanding the problem to operating in production. SDLC 6.0.6 defines 10 stages, 4 tiers, 12 roles (8 SE4A + 3 SE4H + 1 Router), and quality gates.
+A structured approach to building software, from understanding the problem to operating in production. SDLC 6.1.0 defines 10 stages, 4 tiers, 12 roles (8 SE4A + 3 SE4H + 1 Router), and quality gates.
 
 ### SE4H (Software Engineer for Human)
 
@@ -31,7 +31,7 @@ See: [SE4H/SE4A Governance](../01-core-concepts/se4h-se4a-governance.md)
 
 ### 10-Stage Lifecycle
 
-The complete SDLC 6.0.6 lifecycle:
+The complete SDLC 6.1.0 lifecycle:
 
 | Stage | Name | Core Question |
 |-------|------|--------------|
@@ -203,13 +203,13 @@ See: [Iceberg of Change](../01-core-concepts/iceberg-of-change.md)
 
 ### TinySDLC
 
-The MIT-licensed reference implementation of SDLC 6.0.6 at LITE tier. A multi-agent orchestrator that runs AI agents organized into teams with SDLC roles.
+The MIT-licensed reference implementation of SDLC 6.1.0 at LITE tier. A multi-agent orchestrator that runs AI agents organized into teams with SDLC roles.
 
 See: [TinySDLC Reference](../05-case-studies/tinysdlc-reference.md)
 
 ### SDLC Enterprise Framework
 
-The complete SDLC 6.0.6 system for organizations (private, licensed). Includes full specifications, templates, governance systems, and automation patterns.
+The complete SDLC 6.1.0 system for organizations (private, licensed). Includes full specifications, templates, governance systems, and automation patterns.
 
 See: [LITE vs Enterprise](lite-vs-enterprise.md)
 

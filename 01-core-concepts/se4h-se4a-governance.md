@@ -1,6 +1,6 @@
 # SE4H / SE4A Governance Model
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Core Concept
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-The most important principle in SDLC 6.0.6: **humans decide, agents execute**.
+The most important principle in SDLC 6.1.0: **humans decide, agents execute**.
 
 SE4H/SE4A is a governance model that defines the boundary between human authority and AI capability. It ensures that AI tools amplify human decision-making without replacing it.
 
@@ -187,7 +187,7 @@ By operating at Layers 3 and 4, SE4H/SE4A prevents entire categories of issues �
 
 ## STANDARD+ Extension: Formalized SE4H Roles
 
-At LITE tier, SE4H is simply "the human" — you, the developer. At **STANDARD tier and above**, SDLC 6.0.6 formalizes SE4H into 3 distinct roles with AI advisory support:
+At LITE tier, SE4H is simply "the human" — you, the developer. At **STANDARD tier and above**, SDLC 6.1.0 formalizes SE4H into 3 distinct roles with AI advisory support:
 
 | SE4H Role | Decision Domain | Gate Authority | AI Advisory Support |
 |-----------|----------------|----------------|---------------------|

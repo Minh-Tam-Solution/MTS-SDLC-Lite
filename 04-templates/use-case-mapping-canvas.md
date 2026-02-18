@@ -1,6 +1,6 @@
 # Use Case Mapping Canvas
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Template
 **Status**: Active
 **License**: MIT

@@ -1,6 +1,6 @@
 # LITE vs Enterprise
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Reference
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-MTS-SDLC-Lite (this repository) teaches SDLC 6.0.6 **concepts** — the methodology that makes AI+Human teams effective. The full SDLC Enterprise Framework provides complete **specifications, templates, and governance systems** for larger organizations.
+MTS-SDLC-Lite (this repository) teaches SDLC 6.1.0 **concepts** — the methodology that makes AI+Human teams effective. The full SDLC Enterprise Framework provides complete **specifications, templates, and governance systems** for larger organizations.
 
 This page helps you understand what's covered at each level and when to consider upgrading.
 
@@ -105,7 +105,7 @@ The SDLC Enterprise Framework (private, licensed per organization) provides the 
 
 ## The SDLC Ecosystem
 
-SDLC 6.0.6 has **2 layers** (methodology + implementation) across **2 tiers** (community + enterprise):
+SDLC 6.1.0 has **2 layers** (methodology + implementation) across **2 tiers** (community + enterprise):
 
 ```
                  METHODOLOGY                       IMPLEMENTATION
@@ -126,7 +126,7 @@ TIER        "Full methodology at scale"            • SDLC Orchestrator (by MTS
 |---------|-------|---------|
 | **MTS-SDLC-Lite** | Methodology (community) | MIT |
 | **TinySDLC** | Implementation (community) | MIT |
-| **SDLC Enterprise Framework 6.0.6** | Methodology (enterprise) | Per-org license |
+| **SDLC Enterprise Framework 6.1.0** | Methodology (enterprise) | Per-org license |
 | **SDLC Orchestrator** | Implementation (enterprise, by MTS) | Proprietary |
 
 ---

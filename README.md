@@ -1,12 +1,12 @@
 # MTS-SDLC-Lite v1.0.0
 
-**Community Edition of SDLC Enterprise Framework 6.0.6**
+**Community Edition of SDLC Enterprise Framework 6.1.0**
 
 > A tool-agnostic methodology for AI+Human software teams. Open source under MIT license.
 > Built by [MTS (Minh Tam Solution)](https://github.com/Minh-Tam-Solution) — battle-tested on 3 production platforms.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![SDLC Framework](https://img.shields.io/badge/SDLC-6.0.6-blue.svg)](01-core-concepts/10-stage-lifecycle.md)
+[![SDLC Framework](https://img.shields.io/badge/SDLC-6.1.0-blue.svg)](01-core-concepts/10-stage-lifecycle.md)
 
 ---
 
@@ -64,7 +64,7 @@ Read more: [4-Tier Classification](01-core-concepts/4-tier-classification.md)
 
 ## SE4H / SE4A Governance
 
-The most important concept in SDLC 6.0.6: **humans decide, agents execute**.
+The most important concept in SDLC 6.1.0: **humans decide, agents execute**.
 
 | Role | Who | Authority |
 |------|-----|-----------|
@@ -136,9 +136,9 @@ Read more: [12 SDLC Roles](02-roles-and-teams/12-sdlc-roles.md) | [4 Team Archet
 
 | Platform | Domain | Team | Result | Framework |
 |----------|--------|------|--------|-----------|
-| **BFlow** | SME Operations | Small team | 20x productivity, 200K SMEs | SDLC 4.8 → 6.0.6 |
-| **NQH-Bot** | F&B Workforce | Small team | 78% → 95% success rate | SDLC 4.8 → 6.0.6 |
-| **MTEP** | Education PaaS | 1 developer | 50x productivity, <30min setup | SDLC 5.0 → 6.0.6 |
+| **BFlow** | SME Operations | Small team | 20x productivity, 200K SMEs | SDLC 4.8 → 6.1.0 |
+| **NQH-Bot** | F&B Workforce | Small team | 78% → 95% success rate | SDLC 4.8 → 6.1.0 |
+| **MTEP** | Education PaaS | 1 developer | 50x productivity, <30min setup | SDLC 5.0 → 6.1.0 |
 
 **Common pattern**: Small team + AI tools + SDLC discipline = output that rivals teams 10x larger.
 
@@ -148,7 +148,7 @@ Read more: [Battle-Tested Platforms](05-case-studies/battle-tested-platforms.md)
 
 ## The SDLC Ecosystem
 
-SDLC 6.0.6 is organized in **2 layers** across **2 tiers**:
+SDLC 6.1.0 is organized in **2 layers** across **2 tiers**:
 
 ```
                  METHODOLOGY                       IMPLEMENTATION
@@ -176,13 +176,13 @@ TIER        "Full methodology at scale"            Build your own, or use:
 - **MTS-SDLC-Lite** is the community edition of the SDLC methodology. **TinySDLC** is one open-source implementation — but anyone can build their own tools on these concepts.
 - **SDLC Enterprise Framework** is the full methodology for organizations of 10-500+. It is **independently licensable** — any organization can adopt it and build their own platform.
 - **SDLC Orchestrator** is MTS's own enterprise platform implementation — one of potentially many. Other enterprises may license the framework and develop entirely custom platforms suited to their domain.
-- The framework survives independent of any tool. Your team might use different tools, different AI providers, different workflows — and still follow SDLC 6.0.6.
+- The framework survives independent of any tool. Your team might use different tools, different AI providers, different workflows — and still follow SDLC 6.1.0.
 
 | Product | Layer | License | Access |
 |---------|-------|---------|--------|
 | **MTS-SDLC-Lite** | Methodology (community) | MIT | This repo |
 | **TinySDLC** | Implementation (community) | MIT | [github.com/Minh-Tam-Solution/tinysdlc](https://github.com/Minh-Tam-Solution/tinysdlc) |
-| **SDLC Enterprise Framework 6.0.6** | Methodology (enterprise, all tiers) | Per-org license | Contact MTS |
+| **SDLC Enterprise Framework 6.1.0** | Methodology (enterprise, all tiers) | Per-org license | Contact MTS |
 | **SDLC Orchestrator** | Implementation (enterprise, by MTS) | Proprietary | Contact MTS |
 
 Read more: [Lite vs Enterprise](06-reference/lite-vs-enterprise.md)
@@ -193,7 +193,7 @@ Read more: [Lite vs Enterprise](06-reference/lite-vs-enterprise.md)
 
 ```
 MTS-SDLC-Lite/
-├── 01-core-concepts/        Core SDLC 6.0.6 principles
+├── 01-core-concepts/        Core SDLC 6.1.0 principles
 │   ├── 10-stage-lifecycle    The 10-stage software lifecycle
 │   ├── 4-tier-classification LITE / STANDARD / PROFESSIONAL / ENTERPRISE
 │   ├── se4h-se4a-governance  Human Coach + Agent Executor model
@@ -220,12 +220,12 @@ MTS-SDLC-Lite/
 │
 ├── 05-case-studies/         Real-world examples
 │   ├── battle-tested         BFlow, NQH-Bot, MTEP
-│   └── tinysdlc-reference    How TinySDLC implements 6.0.6
+│   └── tinysdlc-reference    How TinySDLC implements 6.1.0
 │
 └── 06-reference/            Background & context
     ├── lite-vs-enterprise    Community vs Enterprise comparison
     ├── glossary              Key terms and definitions
-    └── version-history       How SDLC evolved to 6.0.6
+    └── version-history       How SDLC evolved to 6.1.0
 ```
 
 ---
@@ -246,7 +246,7 @@ We welcome contributions from the community. See [CONTRIBUTING.md](CONTRIBUTING.
 
 MIT License. See [LICENSE](LICENSE).
 
-Both MTS-SDLC-Lite and [TinySDLC](https://github.com/Minh-Tam-Solution/tinysdlc) are open source under MIT. The SDLC Enterprise Framework 6.0.6 is licensed separately per organization — see [Lite vs Enterprise](06-reference/lite-vs-enterprise.md) for details.
+Both MTS-SDLC-Lite and [TinySDLC](https://github.com/Minh-Tam-Solution/tinysdlc) are open source under MIT. The SDLC Enterprise Framework 6.1.0 is licensed separately per organization — see [Lite vs Enterprise](06-reference/lite-vs-enterprise.md) for details.
 
 ---
 

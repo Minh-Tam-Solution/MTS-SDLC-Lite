@@ -1,6 +1,6 @@
 # 12 SDLC Roles
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Roles & Teams
 **Status**: Active
 **License**: MIT
@@ -9,7 +9,7 @@
 
 ## Overview
 
-SDLC 6.0.6 defines **12 roles** for AI+Human software teams, organized into 3 types:
+SDLC 6.1.0 defines **12 roles** for AI+Human software teams, organized into 3 types:
 
 - **8 SE4A roles** (Agent Executors): researcher, pm, pjm, architect, coder, reviewer, tester, devops
 - **3 SE4H roles** (Human Coaches): ceo, cpo, cto — formalized at STANDARD+ tier
@@ -48,7 +48,7 @@ Each role has specific stage responsibilities, gate ownership, and constraints. 
 |------|---------------|--------------|-----------|
 | **assistant** | Routes users to correct agent/team, explains framework | Fast execution | No decision authority, guidance only |
 
-**Note on pm vs pjm**: These are distinct roles. The **Product Manager (pm)** owns WHAT gets built (requirements, priorities, scope). The **Project Manager (pjm)** owns WHEN and HOW MUCH (timeline, resources, sprint execution). In traditional teams, these are sometimes combined — SDLC 6.0.6 separates them for clarity.
+**Note on pm vs pjm**: These are distinct roles. The **Product Manager (pm)** owns WHAT gets built (requirements, priorities, scope). The **Project Manager (pjm)** owns WHEN and HOW MUCH (timeline, resources, sprint execution). In traditional teams, these are sometimes combined — SDLC 6.1.0 separates them for clarity.
 
 ---
 
@@ -262,7 +262,7 @@ At LITE tier (1-2 developers), you don't need 8 separate people. You need 8 *thi
 
 ## STANDARD+ Extension: The Full 12-Role Model
 
-At **STANDARD tier and above**, SDLC 6.0.6 defines 4 additional roles — bringing the total to **12 roles across 3 types**:
+At **STANDARD tier and above**, SDLC 6.1.0 defines 4 additional roles — bringing the total to **12 roles across 3 types**:
 
 | Type | Roles | Purpose |
 |------|-------|---------|

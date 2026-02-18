@@ -1,12 +1,12 @@
 {
-  "_comment_1": "SDLC 6.0.6 Configuration Template — All Tiers",
+  "_comment_1": "SDLC 6.1.0 Configuration Template — All Tiers",
   "_comment_2": "This configuration is TOOL-AGNOSTIC. It defines SDLC methodology settings,",
   "_comment_3": "not any specific tool's configuration. Adapt the structure to your tool of choice.",
   "_comment_4": "For TinySDLC: save as .sdlc-config.json in project root.",
   "_comment_5": "For other tools: use this as a reference for your own configuration format.",
   "_comment_6": "Roles marked tier_required: LITE are always active. STANDARD+ roles activate at higher tiers.",
 
-  "sdlc_version": "6.0.6",
+  "sdlc_version": "6.1.0",
   "tier": "LITE",
   "project_name": "your-project-name",
 

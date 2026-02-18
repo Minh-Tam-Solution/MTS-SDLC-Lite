@@ -1,6 +1,6 @@
 # Contributing to MTS-SDLC-Lite
 
-Thank you for your interest in contributing. MTS-SDLC-Lite is the community edition of SDLC Enterprise Framework 6.0.6, and contributions from the community make it better for everyone.
+Thank you for your interest in contributing. MTS-SDLC-Lite is the community edition of SDLC Enterprise Framework 6.1.0, and contributions from the community make it better for everyone.
 
 ---
 
@@ -8,7 +8,7 @@ Thank you for your interest in contributing. MTS-SDLC-Lite is the community edit
 
 ### Share Success Stories
 
-The most valuable contribution. If SDLC 6.0.6 concepts helped your project:
+The most valuable contribution. If SDLC 6.1.0 concepts helped your project:
 
 1. Create a **Success Story Issue** using the [template](.github/ISSUE_TEMPLATE/success-story.md)
 2. Share your results: time saved, quality improved, patterns created
@@ -55,7 +55,7 @@ All markdown files should include the SDLC header:
 ```markdown
 # Document Title
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: [Core Concept | Playbook | Template | Case Study | Reference]
 **Status**: [Draft | Active | Archived]
 **License**: MIT
@@ -100,7 +100,7 @@ All markdown files should include the SDLC header:
 
 By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
-Note: MTS-SDLC-Lite covers SDLC 6.0.6 **concepts**. The full SDLC Enterprise Framework (specifications, templates, governance systems) is a separate licensed product.
+Note: MTS-SDLC-Lite covers SDLC 6.1.0 **concepts**. The full SDLC Enterprise Framework (specifications, templates, governance systems) is a separate licensed product.
 
 ---
 

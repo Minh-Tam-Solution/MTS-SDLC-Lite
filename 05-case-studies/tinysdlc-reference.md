@@ -1,6 +1,6 @@
 # TinySDLC Reference Implementation
 
-**SDLC Version**: 6.0.6
+**SDLC Version**: 6.1.0
 **Category**: Case Study
 **Status**: Active
 **License**: MIT
@@ -9,9 +9,9 @@
 
 ## Overview
 
-TinySDLC is the **reference implementation** of SDLC 6.0.6 at LITE tier. It's an open-source multi-agent orchestrator that runs AI agents organized into teams with SDLC roles.
+TinySDLC is the **reference implementation** of SDLC 6.1.0 at LITE tier. It's an open-source multi-agent orchestrator that runs AI agents organized into teams with SDLC roles.
 
-**Important**: TinySDLC is ONE implementation of SDLC 6.0.6. The SDLC methodology is tool-agnostic — you can implement it with any AI tool (Claude, GPT, Copilot, Cursor, Ollama) or without AI entirely. TinySDLC is the MTS reference implementation, not the only valid approach.
+**Important**: TinySDLC is ONE implementation of SDLC 6.1.0. The SDLC methodology is tool-agnostic — you can implement it with any AI tool (Claude, GPT, Copilot, Cursor, Ollama) or without AI entirely. TinySDLC is the MTS reference implementation, not the only valid approach.
 
 **Repository**: [github.com/Minh-Tam-Solution/tinysdlc](https://github.com/Minh-Tam-Solution/tinysdlc)
 **License**: MIT
@@ -200,7 +200,7 @@ TinySDLC uses `.sdlc-config.json` in the project root:
     "description": "Project description"
   },
   "sdlc": {
-    "frameworkVersion": "6.0.6",
+    "frameworkVersion": "6.1.0",
     "tier": "LITE",
     "stages": {
       "00-foundation": "docs/00-foundation",
