@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Minh Tam Solution (MTS) - Đặng Thế Tài
+Copyright (c) 2025 Minh Tam Solution (MTS)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,19 +22,7 @@ SOFTWARE.
 
 ---
 
-## Commercial Use & Enterprise Framework
-
-While this "Lite" version is open source and free to use under MIT License,
-the full **SDLC 4.7 Enterprise Framework** including:
-- Complete implementation guides
-- AI role templates (13 total)
-- Crisis response protocols
-- Automation tools and scripts
-- Advanced pattern library
-
-is proprietary and available through commercial licensing with MTS.
-
-For enterprise access, contact: taidt@mtsolution.com.vn | 0939116006
-
-
-
+Note: This MIT license applies to MTS-SDLC-Lite, the community edition of
+SDLC Enterprise Framework 6.0.6 concepts. The full SDLC Enterprise Framework
+(specifications, templates, governance systems) is a separate licensed product
+available through Minh Tam Solution.

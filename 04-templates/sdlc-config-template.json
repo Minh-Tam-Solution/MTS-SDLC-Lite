@@ -1,0 +1,90 @@
+{
+  "_comment_1": "SDLC 6.0.6 LITE Tier Configuration Template",
+  "_comment_2": "This configuration is TOOL-AGNOSTIC. It defines SDLC methodology settings,",
+  "_comment_3": "not any specific tool's configuration. Adapt the structure to your tool of choice.",
+  "_comment_4": "For TinySDLC: save as .sdlc-config.json in project root.",
+  "_comment_5": "For other tools: use this as a reference for your own configuration format.",
+
+  "sdlc_version": "6.0.6",
+  "tier": "LITE",
+  "project_name": "your-project-name",
+
+  "active_stages": [
+    "00-foundation",
+    "01-planning",
+    "02-design",
+    "03-integrate",
+    "04-build"
+  ],
+
+  "quality_gates": {
+    "G0.1": {
+      "name": "Problem Validated",
+      "between": "00 → 01",
+      "owners": ["researcher", "pm"],
+      "required": true
+    },
+    "G1": {
+      "name": "Requirements Complete",
+      "between": "01 → 02",
+      "owners": ["pm", "architect"],
+      "required": true
+    },
+    "G2": {
+      "name": "Design Approved",
+      "between": "02 → 04",
+      "owners": ["architect", "reviewer"],
+      "required": true
+    },
+    "G3": {
+      "name": "Ship Ready",
+      "between": "04 → 06",
+      "owners": ["reviewer", "tester"],
+      "required": true
+    }
+  },
+
+  "roles": {
+    "_comment": "Define which roles are active. At LITE tier, one person may fill multiple roles.",
+    "pm": {
+      "description": "Product Manager — defines WHAT to build",
+      "stages": ["00", "01"],
+      "gates": ["G0.1", "G1"]
+    },
+    "architect": {
+      "description": "Solution Architect — designs HOW to build it",
+      "stages": ["02", "03"],
+      "gates": ["G2"]
+    },
+    "coder": {
+      "description": "Developer — implements the solution",
+      "stages": ["04"],
+      "gates": ["G-Sprint"]
+    },
+    "reviewer": {
+      "description": "Code Reviewer — validates quality and security",
+      "stages": ["04", "05"],
+      "gates": ["G3"]
+    }
+  },
+
+  "teams": {
+    "_comment": "Team archetypes. At LITE tier, fullstack is typical.",
+    "fullstack": {
+      "name": "Full Stack Team",
+      "agents": ["pm", "architect", "coder", "reviewer"],
+      "leader": "pm"
+    }
+  },
+
+  "governance": {
+    "se4h": "Human makes all gate decisions",
+    "se4a": "AI agents execute tasks, never self-approve"
+  },
+
+  "documentation": {
+    "naming": "kebab-case",
+    "structure": "docs/NN-stage/",
+    "header_required": true
+  }
+}
