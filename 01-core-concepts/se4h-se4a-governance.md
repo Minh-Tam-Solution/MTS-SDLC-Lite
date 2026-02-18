@@ -185,9 +185,46 @@ By operating at Layers 3 and 4, SE4H/SE4A prevents entire categories of issues �
 
 ---
 
+## STANDARD+ Extension: Formalized SE4H Roles
+
+At LITE tier, SE4H is simply "the human" — you, the developer. At **STANDARD tier and above**, SDLC 6.0.6 formalizes SE4H into 3 distinct roles with AI advisory support:
+
+| SE4H Role | Decision Domain | Gate Authority | AI Advisory Support |
+|-----------|----------------|----------------|---------------------|
+| **ceo** | Strategy, budget, final escalation | All gates (override) | Risk analysis, market summaries, executive dashboards |
+| **cpo** | Product vision, feature scope, priorities | G0.1, G1 | PRD drafts, competitive analysis, user research synthesis |
+| **cto** | Architecture, security, technology choices | G2, G3 | Architecture reviews, security scans, ADR drafts, code quality reports |
+
+### How SE4H Roles Use AI
+
+SE4H roles are **humans with AI advisors**, not autonomous agents. The AI:
+- Prepares analysis and drafts (SE4A-style execution)
+- Presents options with trade-offs (never decides)
+- Summarizes evidence for gate reviews
+- Generates reports for human consumption
+
+The human SE4H:
+- Reviews AI-prepared materials critically
+- Makes the final decision (approve/reject/modify)
+- Bears accountability for outcomes
+- Signs VCR (Version Controlled Resolution) for audit trail
+
+### When to Formalize SE4H
+
+| Trigger | Action |
+|---------|--------|
+| Team grows to 3+ people | Assign explicit cpo (product decisions) and cto (technical decisions) |
+| Multiple AI agents collaborating | SE4H roles provide escalation targets for CRP (Consultation Request Protocol) |
+| Compliance/audit requirements | Formalized roles create clear accountability chain |
+| Solo developer (LITE tier) | Keep it simple — you are all 3 SE4H roles in one |
+
+**Reference**: [12 SDLC Roles — STANDARD+ Extension](../02-roles-and-teams/8-sdlc-roles.md#standard-extension-the-full-12-role-model)
+
+---
+
 ## See Also
 
-- [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — SE4A constraints per role
+- [12 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — SE4A constraints per role
 - [Quality Gates](quality-gates.md) — SE4H approval points
 - [Iceberg of Change](iceberg-of-change.md) — system thinking foundation
 - [TinySDLC Reference](../05-case-studies/tinysdlc-reference.md) — SE4H/SE4A in practice

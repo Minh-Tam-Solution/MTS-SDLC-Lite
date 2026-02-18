@@ -84,11 +84,11 @@ Initial          Refined           4-Tier            7 Pillars
 
 ### What 6.0.6 Added
 
-1. **8 SDLC Roles**: researcher, pm, pjm, architect, coder, reviewer, tester, devops — with defined stage ownership, gate ownership, and SE4A constraints
+1. **12 SDLC Roles**: 8 SE4A agents (researcher, pm, pjm, architect, coder, reviewer, tester, devops) + 3 SE4H advisors (ceo, cpo, cto) + 1 Router (assistant) — with defined stage ownership, gate ownership, and SE4A/SE4H constraints
 
-2. **4 Team Archetypes**: planning, dev, qa, fullstack — with leaders, members, and communication patterns
+2. **6 Team Archetypes**: 4 core (planning, dev, qa, fullstack) + 2 STANDARD+ (executive, support) — with leaders, members, and communication patterns
 
-3. **Multi-Provider Strategy**: 2-2-4 split for AI model assignment (deep reasoning, precise analysis, fast execution)
+3. **Multi-Provider Strategy**: 3-tier model assignment (deep reasoning, precise analysis, fast execution) with extended 4-3-5 split at STANDARD+
 
 4. **Design Thinking Foundation**: Integration of Design Thinking phases with SDLC stages (Empathize → Define → Ideate → Prototype → Test)
 
@@ -121,7 +121,7 @@ The version number reflects the maturity:
 - Complete overhaul to SDLC 6.0.6
 - English primary language
 - 10-stage lifecycle (5 active at LITE tier)
-- 8 roles, 4 teams, quality gates, SE4H/SE4A
+- 12 roles, 6 teams, quality gates, SE4H/SE4A
 - Multi-provider AI strategy
 - 25+ files across 6 sections
 - Tool-agnostic methodology

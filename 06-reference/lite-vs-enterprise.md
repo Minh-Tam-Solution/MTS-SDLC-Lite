@@ -25,8 +25,8 @@ MTS-SDLC-Lite is the **community edition** — free, open-source (MIT), designed
 | **Classification** | 4 tier definitions (LITE through ENTERPRISE) with team size ranges |
 | **Governance** | SE4H/SE4A concept, human-approves / agent-executes model |
 | **Quality Gates** | Gate names (G0.1-G4, G-Sprint), purposes, basic checklists |
-| **Roles** | 8 role names, stage/gate ownership, SE4A constraints, LITE tier "thinking modes" |
-| **Teams** | 4 team archetypes, compositions, leaders, interaction patterns |
+| **Roles** | 12 role names (8 SE4A + 3 SE4H + 1 Router), stage/gate ownership, SE4A constraints, LITE tier "thinking modes" |
+| **Teams** | 6 team archetypes (4 core + 2 STANDARD+), compositions, leaders, interaction patterns |
 | **AI Strategy** | Multi-provider concept (2-2-4 split), cost optimization principles |
 | **Playbooks** | Quickstart, Founder Playbook, Quick-Win Checklist, Crisis-to-Pattern |
 | **Templates** | Folder structure, use case canvas, config template, gate checklists |
@@ -60,8 +60,8 @@ The SDLC Enterprise Framework (private, licensed per organization) provides the 
 | **Audience** | Solo developers, small teams, learners | Engineering organizations (10-500+) |
 | **Stages** | 10 stage names + questions | 10 stages + full exit criteria + dependency matrix |
 | **Gates** | Gate names + basic checklists | Gates + measurable thresholds + evidence requirements |
-| **Roles** | 8 roles + responsibilities | 8 roles + RACI matrix + collaboration protocols |
-| **Teams** | 4 archetypes + compositions | 4 archetypes + full communication matrix + escalation paths |
+| **Roles** | 8 SE4A roles (+ 4 STANDARD+ documented) | 12 roles (8 SE4A + 3 SE4H + 1 Router) + RACI matrix |
+| **Teams** | 6 archetypes + compositions | 6 archetypes + full communication matrix + escalation paths |
 | **Governance** | SE4H/SE4A concept | SE4H/SE4A + advanced enforcement + override queues |
 | **Quality** | Basic review checklists | Advanced quality scoring + automated detection |
 | **Templates** | Starter templates | Full production templates (50+ documents) |

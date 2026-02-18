@@ -9,13 +9,13 @@
 
 ## Overview
 
-SDLC 6.0.6 defines 4 pre-configured team archetypes aligned with lifecycle stages. Each team has a leader (first point of contact), defined members, and clear stage/gate ownership.
+SDLC 6.0.6 defines **4 core team archetypes** (active at all tiers) plus **2 STANDARD+ archetypes** for formalized SE4H teams. Each team has a leader (first point of contact), defined members, and clear stage/gate ownership.
 
 Teams enable structured collaboration — agents (or humans) communicate through defined channels, not ad-hoc chaos.
 
 ---
 
-## Team Summary
+## Core Teams (LITE tier and above)
 
 ```
 User (SE4H)
@@ -24,6 +24,15 @@ User (SE4H)
     ├── @dev       → [coder → reviewer]                             Stage 04-05
     ├── @qa        → [tester → reviewer]                            Stage 05
     └── @fullstack → [researcher → pm → pjm → architect → coder → reviewer]  All stages
+```
+
+## STANDARD+ Teams
+
+```
+User (SE4H) or escalated by any agent
+    │
+    ├── @executive → [ceo → cpo → cto]          Strategic decisions, gate overrides
+    └── @support   → [assistant]                 User routing and framework guidance
 ```
 
 ---
@@ -125,6 +134,56 @@ User: "Add a new /status command"
 
 ---
 
+## Team 5: Executive (STANDARD+ Only)
+
+**Composition**: ceo (leader), cpo, cto
+**Stages**: All stages (strategic layer)
+**Gates**: All gates (override authority)
+
+```
+PM escalates scope conflict or budget decision:
+  └── ceo (leader): assesses strategic impact
+        └── cpo: evaluates product trade-offs
+        └── cto: evaluates technical trade-offs
+              └── ceo: makes final call → notifies PM + SE4H principal
+```
+
+**When to use**:
+- Major product pivots or scope changes
+- VCR (Version Commitment Review) approvals
+- Escalations that require C-level sign-off
+- Large budget or team structure decisions
+
+**Constraint**: All 3 roles are **SE4H roles** — backed by human principals. This team's AI can draft analysis and recommendations, but final decisions require human review.
+
+**Activation**: Set `tier_required: STANDARD` in configuration. Only activate when your team has explicit CEO/CPO/CTO roles.
+
+---
+
+## Team 6: Support (STANDARD+ Only)
+
+**Composition**: assistant (leader, only member)
+**Stages**: All stages (entry point)
+**Gates**: None (no decision authority)
+
+```
+User sends unclear message or picks wrong team:
+  └── assistant: asks 1-2 clarifying questions
+        └── routes to @planning / @dev / @qa / @executive
+              └── steps back — does not participate further
+```
+
+**When to use**:
+- New team members unfamiliar with SDLC 6.0.6 roles
+- Users who don't know which team or agent to contact
+- Onboarding and framework questions
+
+**Constraint**: assistant has **zero decision authority**. It guides and routes — it never creates artifacts, reviews code, or makes product decisions.
+
+**Activation**: Optional at any tier. Most useful at STANDARD+ when team size creates routing confusion.
+
+---
+
 ## Standalone Usage
 
 Some roles work well as standalone queries (not routed through a team):
@@ -135,6 +194,7 @@ Some roles work well as standalone queries (not routed through a team):
 | `architect` | Quick architectural consultation |
 | `reviewer` | Ad-hoc security review of a code snippet |
 | `devops` | Infrastructure or deployment question |
+| `assistant` | "Which team should I contact for X?" |
 
 ---
 
@@ -153,45 +213,21 @@ Some roles work well as standalone queries (not routed through a team):
 ### With TinySDLC (Reference Implementation)
 
 ```bash
-tinysdlc sdlc init    # Creates all 8 agents + 4 teams
+tinysdlc sdlc init    # Creates 8 active SE4A agents + 4 core teams
 tinysdlc sdlc status  # Verify configuration
 ```
 
+To enable SE4H and Router roles at STANDARD+ tier, configure them manually in `settings.json`.
+
 ### Manual Configuration (Any Tool)
 
-Define teams in your project configuration:
-
-```json
-{
-  "teams": {
-    "planning": {
-      "name": "Planning Team",
-      "agents": ["researcher", "pm", "pjm", "architect"],
-      "leader_agent": "pm"
-    },
-    "dev": {
-      "name": "Development Team",
-      "agents": ["coder", "reviewer"],
-      "leader_agent": "coder"
-    },
-    "qa": {
-      "name": "QA Team",
-      "agents": ["tester", "reviewer"],
-      "leader_agent": "tester"
-    },
-    "fullstack": {
-      "name": "Full Stack Team",
-      "agents": ["researcher", "pm", "pjm", "architect", "coder", "reviewer"],
-      "leader_agent": "pm"
-    }
-  }
-}
-```
+Define teams in your project configuration — see [SDLC Config Template](../04-templates/sdlc-config-template.json) for the full 6-team structure with tier annotations.
 
 ---
 
 ## See Also
 
-- [8 SDLC Roles](8-sdlc-roles.md) — role details and SE4A constraints
+- [12 SDLC Roles](12-sdlc-roles.md) — role details and SE4A constraints
 - [Multi-Provider Strategy](multi-provider-strategy.md) — model assignment per role
 - [TinySDLC Reference](../05-case-studies/tinysdlc-reference.md) — teams in practice
+

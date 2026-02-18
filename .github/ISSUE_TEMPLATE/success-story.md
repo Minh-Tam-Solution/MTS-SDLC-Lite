@@ -28,8 +28,8 @@ Which SDLC 6.0.6 concepts did you use?
 - [ ] 10-Stage Lifecycle (stage-based project structure)
 - [ ] Quality Gates (G0.1, G1, G2, G3, G4)
 - [ ] SE4H/SE4A Governance (human-approves, agent-executes)
-- [ ] 8 SDLC Roles (as thinking modes or separate agents)
-- [ ] 4 Team Archetypes (planning, dev, qa, fullstack)
+- [ ] 12 SDLC Roles (8 SE4A as thinking modes or agents, 3 SE4H + 1 Router at STANDARD+)
+- [ ] 6 Team Archetypes (planning, dev, qa, fullstack + executive, support)
 - [ ] Multi-Provider AI Strategy (2-2-4 model split)
 - [ ] Crisis-to-Pattern playbook
 - [ ] Other (specify):

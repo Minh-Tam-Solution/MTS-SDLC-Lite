@@ -79,7 +79,7 @@ This is the system thinking foundation of SDLC 6.0.6.
 
 **What you build**: Systems that prevent issues by design — quality gates, defined roles, documentation standards, automated checks.
 
-**This is where SDLC 6.0.6 operates**: The 10-stage lifecycle, 8 roles, quality gates, and SE4H/SE4A governance are all structural interventions.
+**This is where SDLC 6.0.6 operates**: The 10-stage lifecycle, 12 roles, quality gates, and SE4H/SE4A governance are all structural interventions.
 
 **Impact**: Issues are prevented before they occur. New team members inherit good practices automatically.
 
@@ -152,7 +152,7 @@ Don't try to jump from Layer 1 to Layer 4. Move one layer at a time:
 
 ### Step 3: Use SDLC 6.0.6 as Your Structure Layer
 
-The 10-stage lifecycle, 8 roles, and quality gates are pre-built structural interventions. You don't need to invent your own — adopt the framework and customize it to your context.
+The 10-stage lifecycle, 12 roles, and quality gates are pre-built structural interventions. You don't need to invent your own — adopt the framework and customize it to your context.
 
 ---
 
@@ -162,7 +162,7 @@ The 10-stage lifecycle, 8 roles, and quality gates are pre-built structural inte
 |-------------|---------------------|
 | Events | Individual bugs, missed deadlines, tool failures |
 | Patterns | Recurring types of issues across sprints |
-| **Structures** | **10 stages, 8 roles, quality gates, SE4H/SE4A governance** |
+| **Structures** | **10 stages, 12 roles, quality gates, SE4H/SE4A governance** |
 | **Mental Models** | **Process-first, humans decide agents execute, crisis→pattern** |
 
 SDLC 6.0.6 is primarily a **Layer 3 + Layer 4 intervention** — it changes both the structures (how you work) and the mental models (how you think about work).

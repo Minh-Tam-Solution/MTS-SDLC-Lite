@@ -179,6 +179,6 @@ The 679-Mock Crisis (see [Case Studies](../05-case-studies/battle-tested-platfor
 ## See Also
 
 - [SE4H/SE4A Governance](se4h-se4a-governance.md) — who approves gates
-- [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — gate ownership per role
+- [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md) — gate ownership per role
 - [Gate Checklist Template](../04-templates/gate-checklist-template.md) — ready-to-use checklists
 - [10-Stage Lifecycle](10-stage-lifecycle.md) — where gates sit in the lifecycle

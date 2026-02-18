@@ -131,8 +131,60 @@ Apply the principle manually:
 
 ---
 
+## STANDARD+ Extension: 12-Role Model Routing
+
+At **STANDARD tier and above**, SDLC 6.0.6 adds 4 roles (3 SE4H + 1 Router). These require different model characteristics than the 8 SE4A roles:
+
+### Extended Role-to-Tier Mapping
+
+| Role | Type | Tier | Why |
+|------|------|------|-----|
+| **ceo** | SE4H | Deep Reasoning | Strategic decisions need deepest reasoning, risk assessment |
+| **cpo** | SE4H | Precise Analysis | Product decisions need structured analysis, requirement synthesis |
+| **cto** | SE4H | Deep Reasoning | Architecture reviews and security analysis need nuanced judgment |
+| **assistant** | Router | Fast Execution | Routing queries, explaining framework — fast and conversational |
+
+### Extended Provider Split (STANDARD+)
+
+```
+Deep Reasoning (4 roles):    researcher, architect, ceo, cto
+Precise Analysis (3 roles):  pm, reviewer, cpo
+Fast Execution (5 roles):    pjm, coder, tester, devops, assistant
+```
+
+### SE4H Model Selection Considerations
+
+SE4H roles are **AI advisors to human decision-makers**, not autonomous agents. Their model requirements differ:
+
+- **Quality over speed**: SE4H advisory output is reviewed by humans — latency is less critical than reasoning quality
+- **Cloud providers preferred**: SE4H roles handle sensitive strategic/security content; use the strongest available models
+- **Read-only context**: SE4H models analyze but don't execute — they need strong comprehension, not tool use
+
+### Example: STANDARD+ Configuration
+
+```json
+{
+  "agents": {
+    "researcher":  { "provider": "anthropic", "model": "opus" },
+    "pm":          { "provider": "openai",    "model": "gpt-5.2" },
+    "pjm":         { "provider": "anthropic", "model": "sonnet" },
+    "architect":   { "provider": "anthropic", "model": "opus" },
+    "coder":       { "provider": "anthropic", "model": "sonnet" },
+    "reviewer":    { "provider": "openai",    "model": "gpt-5.2" },
+    "tester":      { "provider": "anthropic", "model": "sonnet" },
+    "devops":      { "provider": "anthropic", "model": "sonnet" },
+    "ceo":         { "provider": "anthropic", "model": "opus" },
+    "cpo":         { "provider": "anthropic", "model": "sonnet" },
+    "cto":         { "provider": "anthropic", "model": "opus" },
+    "assistant":   { "provider": "ollama",    "model": "qwen3:14b" }
+  }
+}
+```
+
+---
+
 ## See Also
 
-- [8 SDLC Roles](8-sdlc-roles.md) — role responsibilities that drive model selection
+- [12 SDLC Roles](8-sdlc-roles.md) — role responsibilities that drive model selection
 - [4 Team Archetypes](4-team-archetypes.md) — how roles combine in teams
 - [TinySDLC Reference](../05-case-studies/tinysdlc-reference.md) — multi-provider in practice

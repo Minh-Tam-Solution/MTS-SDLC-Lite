@@ -1,9 +1,10 @@
 {
-  "_comment_1": "SDLC 6.0.6 LITE Tier Configuration Template",
+  "_comment_1": "SDLC 6.0.6 Configuration Template — All Tiers",
   "_comment_2": "This configuration is TOOL-AGNOSTIC. It defines SDLC methodology settings,",
   "_comment_3": "not any specific tool's configuration. Adapt the structure to your tool of choice.",
   "_comment_4": "For TinySDLC: save as .sdlc-config.json in project root.",
   "_comment_5": "For other tools: use this as a reference for your own configuration format.",
+  "_comment_6": "Roles marked tier_required: LITE are always active. STANDARD+ roles activate at higher tiers.",
 
   "sdlc_version": "6.0.6",
   "tier": "LITE",
@@ -45,41 +46,141 @@
   },
 
   "roles": {
-    "_comment": "Define which roles are active. At LITE tier, one person may fill multiple roles.",
+    "_comment": "12 roles across 3 types. tier_required controls activation per project tier.",
+
+    "researcher": {
+      "type": "se4a",
+      "tier_required": "LITE",
+      "description": "Researcher — investigates problems, gathers evidence",
+      "stages": ["00", "01"],
+      "gates": ["G0.1"]
+    },
     "pm": {
+      "type": "se4a",
+      "tier_required": "LITE",
       "description": "Product Manager — defines WHAT to build",
       "stages": ["00", "01"],
       "gates": ["G0.1", "G1"]
     },
+    "pjm": {
+      "type": "se4a",
+      "tier_required": "LITE",
+      "description": "Project Manager — tracks WHEN to build",
+      "stages": ["01", "02", "03", "04"],
+      "gates": ["G-Sprint"]
+    },
     "architect": {
+      "type": "se4a",
+      "tier_required": "LITE",
       "description": "Solution Architect — designs HOW to build it",
       "stages": ["02", "03"],
       "gates": ["G2"]
     },
     "coder": {
+      "type": "se4a",
+      "tier_required": "LITE",
       "description": "Developer — implements the solution",
       "stages": ["04"],
       "gates": ["G-Sprint"]
     },
     "reviewer": {
+      "type": "se4a",
+      "tier_required": "LITE",
       "description": "Code Reviewer — validates quality and security",
       "stages": ["04", "05"],
       "gates": ["G3"]
+    },
+    "tester": {
+      "type": "se4a",
+      "tier_required": "LITE",
+      "description": "QA Tester — validates test coverage",
+      "stages": ["05"],
+      "gates": ["G3"]
+    },
+    "devops": {
+      "type": "se4a",
+      "tier_required": "LITE",
+      "description": "DevOps Engineer — manages deployment",
+      "stages": ["06", "07"],
+      "gates": ["G4"]
+    },
+
+    "ceo": {
+      "type": "se4h",
+      "tier_required": "STANDARD",
+      "description": "CEO (AI Advisor) — strategic direction, budget approval, final escalation",
+      "stages": ["00", "09"],
+      "gates": ["all (override)"]
+    },
+    "cpo": {
+      "type": "se4h",
+      "tier_required": "STANDARD",
+      "description": "CPO (AI Advisor) — product vision, feature scope, requirement approval",
+      "stages": ["00", "01"],
+      "gates": ["G0.1", "G1"]
+    },
+    "cto": {
+      "type": "se4h",
+      "tier_required": "STANDARD",
+      "description": "CTO (AI Advisor) — architecture approval, security sign-off, tech decisions",
+      "stages": ["02", "03", "05"],
+      "gates": ["G2", "G3"]
+    },
+    "assistant": {
+      "type": "router",
+      "tier_required": "STANDARD",
+      "description": "Assistant — routes users to correct agent/team, explains SDLC framework",
+      "stages": ["all"],
+      "gates": []
     }
   },
 
   "teams": {
-    "_comment": "Team archetypes. At LITE tier, fullstack is typical.",
+    "_comment": "Team archetypes. At LITE tier, fullstack is typical. STANDARD+ adds executive and support.",
     "fullstack": {
       "name": "Full Stack Team",
-      "agents": ["pm", "architect", "coder", "reviewer"],
-      "leader": "pm"
+      "agents": ["researcher", "pm", "pjm", "architect", "coder", "reviewer"],
+      "leader": "pm",
+      "tier_required": "LITE"
+    },
+    "planning": {
+      "name": "Planning Team",
+      "agents": ["researcher", "pm", "pjm", "architect"],
+      "leader": "pm",
+      "tier_required": "LITE"
+    },
+    "dev": {
+      "name": "Development Team",
+      "agents": ["coder", "reviewer"],
+      "leader": "coder",
+      "tier_required": "LITE"
+    },
+    "qa": {
+      "name": "QA Team",
+      "agents": ["tester", "reviewer"],
+      "leader": "tester",
+      "tier_required": "LITE"
+    },
+    "executive": {
+      "name": "Executive Team",
+      "agents": ["ceo", "cpo", "cto"],
+      "leader": "ceo",
+      "tier_required": "STANDARD",
+      "_comment": "Handles strategic decisions, VCR approval, and major gate overrides."
+    },
+    "support": {
+      "name": "Support Team",
+      "agents": ["assistant"],
+      "leader": "assistant",
+      "tier_required": "STANDARD",
+      "_comment": "Routes user requests to the correct team or workflow."
     }
   },
 
   "governance": {
     "se4h": "Human makes all gate decisions",
-    "se4a": "AI agents execute tasks, never self-approve"
+    "se4a": "AI agents execute tasks, never self-approve",
+    "se4h_roles_note": "At STANDARD+, SE4H is formalized into ceo/cpo/cto with AI advisory support"
   },
 
   "documentation": {

@@ -1,4 +1,4 @@
-# 8 SDLC Roles
+# 12 SDLC Roles
 
 **SDLC Version**: 6.0.6
 **Category**: Roles & Teams
@@ -9,13 +9,19 @@
 
 ## Overview
 
-SDLC 6.0.6 defines 8 roles for AI+Human software teams. Each role has specific stage responsibilities, gate ownership, and SE4A constraints (what the role is forbidden from doing).
+SDLC 6.0.6 defines **12 roles** for AI+Human software teams, organized into 3 types:
 
-These roles work with **any** AI tool or team structure. At LITE tier, one person often wears multiple hats — the roles still apply as *thinking modes*.
+- **8 SE4A roles** (Agent Executors): researcher, pm, pjm, architect, coder, reviewer, tester, devops
+- **3 SE4H roles** (Human Coaches): ceo, cpo, cto — formalized at STANDARD+ tier
+- **1 Router role**: assistant — guides users to the correct agent/workflow
+
+Each role has specific stage responsibilities, gate ownership, and constraints. These roles work with **any** AI tool or team structure. At LITE tier, the 8 SE4A roles apply as *thinking modes* for solo developers. The additional 4 roles activate at STANDARD+ tier.
 
 ---
 
 ## Role Summary
+
+### SE4A Roles (8 Agent Executors)
 
 | Role | Stage | Gate | Provider Tier | Key Constraint |
 |------|-------|------|--------------|----------------|
@@ -27,6 +33,20 @@ These roles work with **any** AI tool or team structure. At LITE tier, one perso
 | **reviewer** | 04-05 | G3 (primary) | Precise analysis | Reviews quality, never approves own code |
 | **tester** | 05 | G3 (co-owner) | Fast execution | Validates quality, never modifies code to pass tests |
 | **devops** | 06-07 | G4 | Fast execution | Deploys, never ships without G3 confirmation |
+
+### SE4H Roles (3 Human Coaches — STANDARD+)
+
+| Role | Decision Domain | Gate Authority | Provider Tier |
+|------|----------------|----------------|--------------|
+| **ceo** | Strategy, budget, final escalation | All gates (override) | Deep reasoning |
+| **cpo** | Product vision, feature scope, priorities | G0.1, G1 | Precise analysis |
+| **cto** | Architecture, security, technology | G2, G3 | Deep reasoning |
+
+### Router Role (1 — STANDARD+)
+
+| Role | Responsibility | Provider Tier | Constraint |
+|------|---------------|--------------|-----------|
+| **assistant** | Routes users to correct agent/team, explains framework | Fast execution | No decision authority, guidance only |
 
 **Note on pm vs pjm**: These are distinct roles. The **Product Manager (pm)** owns WHAT gets built (requirements, priorities, scope). The **Project Manager (pjm)** owns WHEN and HOW MUCH (timeline, resources, sprint execution). In traditional teams, these are sometimes combined — SDLC 6.0.6 separates them for clarity.
 
@@ -237,6 +257,47 @@ At LITE tier (1-2 developers), you don't need 8 separate people. You need 8 *thi
 | Deploying | `devops` |
 
 **Minimum for LITE tier**: Always pause between `coder` and `reviewer` thinking. Never review your code in the same session you wrote it.
+
+---
+
+## STANDARD+ Extension: The Full 12-Role Model
+
+At **STANDARD tier and above**, SDLC 6.0.6 defines 4 additional roles — bringing the total to **12 roles across 3 types**:
+
+| Type | Roles | Purpose |
+|------|-------|---------|
+| **SE4A** (Agent Executor) | researcher, pm, pjm, architect, coder, reviewer, tester, devops | Autonomous AI agents — execute tasks within delegated scope |
+| **SE4H** (Agent Coach) | ceo, cpo, cto | Human decision-makers supported by AI — define intent, approve outputs, bear accountability |
+| **Router** | assistant | Guides users to the correct agent or workflow — no decision authority |
+
+### SE4H Roles (STANDARD+ Only)
+
+| Role | Responsibility | AI Support |
+|------|---------------|------------|
+| **ceo** | Strategic direction, budget approval, final escalation | AI provides analysis summaries, risk assessments |
+| **cpo** | Product vision, feature prioritization, requirement approval (G1) | AI drafts PRDs, competitive analysis, user research synthesis |
+| **cto** | Architecture approval (G2), security sign-off, technology decisions | AI generates architecture reviews, security scans, ADR drafts |
+
+SE4H roles are **not autonomous agents**. They represent humans who use AI as an advisor:
+- `max_delegation_depth = 0` (cannot spawn sub-agents)
+- Read-only tool access (analysis, not execution)
+- Advisory output only (drafts, summaries, recommendations)
+- All outputs require human review before action
+
+### Router Role (STANDARD+ Only)
+
+| Role | Responsibility | Constraint |
+|------|---------------|-----------|
+| **assistant** | Routes users to correct agent/team, explains SDLC framework | No decision authority, no code execution, guidance only |
+
+### Why LITE Keeps 8 Roles
+
+At LITE tier (1-2 developers), the 8 SE4A roles are sufficient — one person fills SE4H responsibilities directly. The additional 4 roles become valuable when:
+- Team grows beyond 2 people (formalized decision authority)
+- Multiple AI agents collaborate (routing and escalation needed)
+- Compliance requires explicit role separation (audit trail)
+
+**Reference**: [ADR-056 §12.5](https://github.com/Minh-Tam-Solution/SDLC-Orchestrator) — SASE Role Classification
 
 ---
 

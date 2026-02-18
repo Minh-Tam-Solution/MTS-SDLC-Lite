@@ -314,7 +314,7 @@ After completing this quickstart:
 
 1. **Read** [Founder Playbook](founder-playbook.md) for a deeper 3-step adoption guide
 2. **Review** [Quality Gates](../01-core-concepts/quality-gates.md) for detailed gate checklists
-3. **Explore** [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) to understand role-based thinking
+3. **Explore** [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md) to understand role-based thinking
 4. **Try** [Use Case Mapping Canvas](../04-templates/use-case-mapping-canvas.md) for mapping your first use case
 
 ---

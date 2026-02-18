@@ -20,9 +20,9 @@ TinySDLC is the **reference implementation** of SDLC 6.0.6 at LITE tier. It's an
 
 ## What TinySDLC Implements
 
-### 8 SDLC Agents
+### 8 Active SE4A Agents
 
-TinySDLC creates 8 AI agents, each assigned an SDLC role:
+TinySDLC creates 8 AI agents (the SE4A roles), each assigned an SDLC role:
 
 | Agent | SDLC Role | Stage | AI Provider Tier |
 |-------|-----------|-------|-----------------|
@@ -114,7 +114,7 @@ npm run build
 ### Apply SDLC Configuration
 
 ```bash
-tinysdlc sdlc init     # Creates 8 agents + 4 teams
+tinysdlc sdlc init     # Creates 8 SE4A agents + 4 teams
 tinysdlc sdlc status   # Verify configuration
 ```
 
@@ -164,8 +164,8 @@ Key design decisions:
 
 | SDLC Concept | TinySDLC Implementation |
 |-------------|------------------------|
-| 8 SDLC Roles | 8 agents with role-specific prompts and constraints |
-| 4 Team Archetypes | 4 teams with leaders, members, and communication rules |
+| 12 SDLC Roles | 8 SE4A agents active (LITE tier); 12-role model defined in config |
+| 6 Team Archetypes | 4 core teams active (LITE tier); 6 archetypes defined in config |
 | SE4H/SE4A Governance | Human approves gates; agents execute but cannot self-approve |
 | Multi-Provider Strategy | Different AI models per role tier (2-2-4 split) |
 | Quality Gates | Agents reference gate criteria in their role prompts |
@@ -223,7 +223,7 @@ For a tool-agnostic configuration template, see [SDLC Config Template](../04-tem
 
 ## See Also
 
-- [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — role responsibilities
+- [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md) — role responsibilities
 - [4 Team Archetypes](../02-roles-and-teams/4-team-archetypes.md) — team structures
 - [Multi-Provider Strategy](../02-roles-and-teams/multi-provider-strategy.md) — model assignment
 - [LITE vs Enterprise](../06-reference/lite-vs-enterprise.md) — what Lite covers vs Enterprise

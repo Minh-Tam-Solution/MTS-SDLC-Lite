@@ -11,7 +11,7 @@
 
 ### SDLC (Software Development Lifecycle)
 
-A structured approach to building software, from understanding the problem to operating in production. SDLC 6.0.6 defines 10 stages, 4 tiers, 8 roles, and quality gates.
+A structured approach to building software, from understanding the problem to operating in production. SDLC 6.0.6 defines 10 stages, 4 tiers, 12 roles (8 SE4A + 3 SE4H + 1 Router), and quality gates.
 
 ### SE4H (Software Engineer for Human)
 
@@ -98,7 +98,9 @@ See: [4-Tier Classification](../01-core-concepts/4-tier-classification.md)
 
 ## Roles
 
-### 8 SDLC Roles
+### 12 SDLC Roles (8 SE4A + 3 SE4H + 1 Router)
+
+**SE4A Roles** (Agent Executors — active at all tiers):
 
 | Role | Responsibility | Key Constraint |
 |------|---------------|----------------|
@@ -111,9 +113,23 @@ See: [4-Tier Classification](../01-core-concepts/4-tier-classification.md)
 | tester | Validates test coverage | Never modifies code to pass tests |
 | devops | Manages deployment | Never ships without G3 |
 
-**At LITE tier**: These are "thinking modes" for one person, not 8 separate people.
+**SE4H Roles** (Human Coaches — STANDARD+ tier):
 
-See: [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md)
+| Role | Responsibility | Key Constraint |
+|------|---------------|----------------|
+| ceo | Strategic direction, budget, final escalation | AI advisor only, human decides |
+| cpo | Product vision, feature scope, priorities | AI advisor only, human decides |
+| cto | Architecture, security, technology decisions | AI advisor only, human decides |
+
+**Router Role** (STANDARD+ tier):
+
+| Role | Responsibility | Key Constraint |
+|------|---------------|----------------|
+| assistant | Routes users to correct agent/team | No decision authority, guidance only |
+
+**At LITE tier**: The 8 SE4A roles are "thinking modes" for one person. SE4H roles are implicit (you are the human). At STANDARD+, all 12 roles are explicitly defined.
+
+See: [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md)
 
 ### pm vs pjm
 
@@ -126,7 +142,7 @@ These are distinct roles. In smaller teams, one person may fill both, but the th
 
 ## Teams
 
-### 4 Team Archetypes
+### 6 Team Archetypes (4 core + 2 STANDARD+)
 
 | Team | Composition | When to Use |
 |------|-------------|-------------|
@@ -134,6 +150,8 @@ These are distinct roles. In smaller teams, one person may fill both, but the th
 | dev | coder, reviewer | Implementing and reviewing code |
 | qa | tester, reviewer | Pre-release validation, security audit |
 | fullstack | researcher, pm, pjm, architect, coder, reviewer | Small projects, rapid prototyping |
+| executive | ceo, cpo, cto | Strategic decisions, VCR approval — STANDARD+ |
+| support | assistant | User guidance, routing — STANDARD+ |
 
 See: [4 Team Archetypes](../02-roles-and-teams/4-team-archetypes.md)
 
@@ -143,13 +161,13 @@ See: [4 Team Archetypes](../02-roles-and-teams/4-team-archetypes.md)
 
 ### Multi-Provider Strategy
 
-Different roles need different AI model strengths. The 2-2-4 split assigns model tiers to role categories:
+Different roles need different AI model strengths. The SE4A-only split is 2-2-4; at STANDARD+ with all 12 roles it extends to 4-3-5:
 
-| Tier | Roles | Model Strength |
-|------|-------|---------------|
-| Deep Reasoning (2) | researcher, architect | Complex analysis, nuanced judgment |
-| Precise Analysis (2) | pm, reviewer | Structured output, criteria evaluation |
-| Fast Execution (4) | pjm, coder, tester, devops | Rapid iteration, reliable output |
+| Tier | SE4A Roles | STANDARD+ Additions |
+|------|-----------|---------------------|
+| Deep Reasoning | researcher, architect | + ceo, cto |
+| Precise Analysis | pm, reviewer | + cpo |
+| Fast Execution | pjm, coder, tester, devops | + assistant |
 
 See: [Multi-Provider Strategy](../02-roles-and-teams/multi-provider-strategy.md)
 
@@ -201,5 +219,5 @@ See: [LITE vs Enterprise](lite-vs-enterprise.md)
 
 - [README](../README.md) — project overview
 - [10-Stage Lifecycle](../01-core-concepts/10-stage-lifecycle.md) — stage details
-- [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — role details
+- [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md) — role details
 - [Quality Gates](../01-core-concepts/quality-gates.md) — gate details

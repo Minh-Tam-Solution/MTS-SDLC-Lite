@@ -176,5 +176,5 @@ Each transition takes 2-4 weeks of process setup. The SDLC Enterprise Framework 
 
 - [10-Stage Lifecycle](10-stage-lifecycle.md) — which stages each tier activates
 - [Quality Gates](quality-gates.md) — gate formality per tier
-- [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — which roles are needed per tier
+- [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md) — which roles are needed per tier
 - [Lite vs Enterprise](../06-reference/lite-vs-enterprise.md) — what the Enterprise framework adds

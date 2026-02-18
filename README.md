@@ -77,22 +77,26 @@ Read more: [SE4H/SE4A Governance](01-core-concepts/se4h-se4a-governance.md)
 
 ---
 
-## 8 SDLC Roles + 4 Team Archetypes
+## 12 SDLC Roles + 6 Team Archetypes
 
-### Roles
+### Roles (8 SE4A + 3 SE4H + 1 Router)
 
-| Role | Stage | Gate | Key Constraint |
-|------|-------|------|----------------|
-| **researcher** | 00-01 | G0.1 | Investigates, never decides product direction |
-| **pm** (Product Manager) | 00-01 | G0.1, G1 | Defines WHAT to build, never HOW |
-| **pjm** (Project Manager) | 01-04 | G-Sprint | Tracks execution, never changes scope |
-| **architect** | 02-03 | G2 | Designs systems, never writes production code |
-| **coder** | 04 | Sprint Gate | Implements, never merges without review |
-| **reviewer** | 04-05 | G3 | Reviews quality, never approves own code |
-| **tester** | 05 | G3 | Validates quality, never modifies code to pass tests |
-| **devops** | 06-07 | G4 | Deploys, never ships without G3 confirmation |
+| Role | Type | Stage | Gate | Key Constraint |
+|------|------|-------|------|----------------|
+| **researcher** | SE4A | 00-01 | G0.1 | Investigates, never decides product direction |
+| **pm** (Product Manager) | SE4A | 00-01 | G0.1, G1 | Defines WHAT to build, never HOW |
+| **pjm** (Project Manager) | SE4A | 01-04 | G-Sprint | Tracks execution, never changes scope |
+| **architect** | SE4A | 02-03 | G2 | Designs systems, never writes production code |
+| **coder** | SE4A | 04 | Sprint Gate | Implements, never merges without review |
+| **reviewer** | SE4A | 04-05 | G3 | Reviews quality, never approves own code |
+| **tester** | SE4A | 05 | G3 | Validates quality, never modifies code to pass tests |
+| **devops** | SE4A | 06-07 | G4 | Deploys, never ships without G3 confirmation |
+| **ceo** | SE4H | all | override | Strategic direction, budget — STANDARD+ |
+| **cpo** | SE4H | 00-01 | G0.1, G1 | Product vision, priorities — STANDARD+ |
+| **cto** | SE4H | 02-05 | G2, G3 | Architecture, security — STANDARD+ |
+| **assistant** | Router | all | — | Guides users to correct agent — STANDARD+ |
 
-### Teams
+### Teams (4 core + 2 STANDARD+)
 
 | Team | Agents | Stages | Use Case |
 |------|--------|--------|----------|
@@ -100,10 +104,12 @@ Read more: [SE4H/SE4A Governance](01-core-concepts/se4h-se4a-governance.md)
 | **dev** | coder, reviewer | 04-05 | Build & Review |
 | **qa** | tester, reviewer | 05 | Quality Assurance (required for G3) |
 | **fullstack** | researcher, pm, pjm, architect, coder, reviewer | 00-05 | LITE tier end-to-end |
+| **executive** | ceo, cpo, cto | all | Strategic decisions — STANDARD+ |
+| **support** | assistant | all | User guidance, routing — STANDARD+ |
 
-At LITE tier, one person often wears multiple hats. The roles still apply as *thinking modes* — when you write requirements, you're thinking as `pm`; when you review code, you're thinking as `reviewer`.
+At LITE tier, one person often wears multiple hats. The 8 SE4A roles apply as *thinking modes* — when you write requirements, you're thinking as `pm`; when you review code, you're thinking as `reviewer`. The 4 additional roles (ceo, cpo, cto, assistant) activate at STANDARD+ tier.
 
-Read more: [8 SDLC Roles](02-roles-and-teams/8-sdlc-roles.md) | [4 Team Archetypes](02-roles-and-teams/4-team-archetypes.md) | [Multi-Provider Strategy](02-roles-and-teams/multi-provider-strategy.md)
+Read more: [12 SDLC Roles](02-roles-and-teams/12-sdlc-roles.md) | [4 Team Archetypes](02-roles-and-teams/4-team-archetypes.md) | [Multi-Provider Strategy](02-roles-and-teams/multi-provider-strategy.md)
 
 ---
 
@@ -117,7 +123,7 @@ Read more: [8 SDLC Roles](02-roles-and-teams/8-sdlc-roles.md) | [4 Team Archetyp
 ### Path 2: Team Leads (tactical)
 1. Read [10-Stage Lifecycle](01-core-concepts/10-stage-lifecycle.md) — understand the framework
 2. Start with [LITE Quickstart](03-playbooks/lite-quickstart.md) — running in 30 minutes
-3. Set up roles with [8 SDLC Roles](02-roles-and-teams/8-sdlc-roles.md)
+3. Set up roles with [12 SDLC Roles](02-roles-and-teams/12-sdlc-roles.md)
 
 ### Path 3: Developers (hands-on)
 1. Follow [LITE Quickstart](03-playbooks/lite-quickstart.md) — folder structure + first docs
@@ -196,8 +202,8 @@ MTS-SDLC-Lite/
 │   └── design-thinking       Build the RIGHT thing first
 │
 ├── 02-roles-and-teams/      Who does what
-│   ├── 8-sdlc-roles         8 roles with SE4A constraints
-│   ├── 4-team-archetypes    Planning, Dev, QA, Fullstack
+│   ├── 12-sdlc-roles        12 roles (8 SE4A + 3 SE4H + 1 Router)
+│   ├── 4-team-archetypes    6 teams: Planning, Dev, QA, Fullstack + Executive, Support
 │   └── multi-provider       Model assignment per role
 │
 ├── 03-playbooks/            Step-by-step guides

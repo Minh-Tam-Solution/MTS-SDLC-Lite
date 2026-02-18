@@ -252,6 +252,6 @@ Deployment is safe, monitored, and reversible. The team can detect problems and 
 ## See Also
 
 - [Quality Gates](../01-core-concepts/quality-gates.md) — theory, ownership, and failure handling
-- [8 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — who owns which gate
+- [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md) — who owns which gate
 - [SE4H/SE4A Governance](../01-core-concepts/se4h-se4a-governance.md) — why humans approve gates
 - [Crisis to Pattern](../03-playbooks/crisis-to-pattern.md) — what to do when gates fail
