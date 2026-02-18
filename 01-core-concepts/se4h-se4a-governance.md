@@ -218,13 +218,13 @@ The human SE4H:
 | Compliance/audit requirements | Formalized roles create clear accountability chain |
 | Solo developer (LITE tier) | Keep it simple — you are all 3 SE4H roles in one |
 
-**Reference**: [12 SDLC Roles — STANDARD+ Extension](../02-roles-and-teams/8-sdlc-roles.md#standard-extension-the-full-12-role-model)
+**Reference**: [12 SDLC Roles — STANDARD+ Extension](../02-roles-and-teams/12-sdlc-roles.md#standard-extension-the-full-12-role-model)
 
 ---
 
 ## See Also
 
-- [12 SDLC Roles](../02-roles-and-teams/8-sdlc-roles.md) — SE4A constraints per role
+- [12 SDLC Roles](../02-roles-and-teams/12-sdlc-roles.md) — SE4A constraints per role
 - [Quality Gates](quality-gates.md) — SE4H approval points
 - [Iceberg of Change](iceberg-of-change.md) — system thinking foundation
 - [TinySDLC Reference](../05-case-studies/tinysdlc-reference.md) — SE4H/SE4A in practice

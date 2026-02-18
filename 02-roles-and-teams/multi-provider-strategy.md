@@ -185,6 +185,6 @@ SE4H roles are **AI advisors to human decision-makers**, not autonomous agents. 
 
 ## See Also
 
-- [12 SDLC Roles](8-sdlc-roles.md) — role responsibilities that drive model selection
+- [12 SDLC Roles](12-sdlc-roles.md) — role responsibilities that drive model selection
 - [4 Team Archetypes](4-team-archetypes.md) — how roles combine in teams
 - [TinySDLC Reference](../05-case-studies/tinysdlc-reference.md) — multi-provider in practice

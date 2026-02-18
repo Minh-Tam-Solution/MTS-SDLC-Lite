@@ -269,7 +269,7 @@ For TinySDLC specifically:
 git clone https://github.com/Minh-Tam-Solution/tinysdlc.git
 cd tinysdlc && npm install && npm run build
 
-# Apply SDLC configuration (creates 8 agents + 4 teams)
+# Apply SDLC configuration (creates 8 active SE4A agents + 4 core teams)
 ./tinysdlc.sh start
 tinysdlc sdlc init
 ```
